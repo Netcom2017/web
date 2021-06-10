@@ -27,7 +27,7 @@ const TopHeader = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 align-items-center">
             <div className="header-right d-none d-lg-block">
-              <Link href="coming-soon" as="coming-soon">
+              <Link href="/career" as="/career">
                 <a>Careers</a>
               </Link>
               <Link href="/blog" as="/blog">
