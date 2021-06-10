@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "next build",
+    "export": "next export"
   },
   "keywords": [],
   "author": "",
