@@ -35,6 +35,11 @@ const Footer = () => {
                       <FontAwesomeIcon icon={["fab", "instagram"]} />
                     </i>
                   </a>
+                  <a href="https://api.whatsapp.com/send?phone=918766550668">
+                    <i>
+                      <FontAwesomeIcon icon={["fab", "whatsapp"]} />
+                    </i>
+                  </a>
                 </div>
                 <div className="google-partner mt-3">
                   <img

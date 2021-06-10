@@ -1,19 +1,62 @@
-import { faSort, faEye, faArrowCircleLeft, faArrowCircleRight, faArrowAltCircleRight,
-  faArrowAltCircleLeft, faClock, faSearch, faPlay } from '@fortawesome/free-solid-svg-icons';
-
-import {faChevronLeft, faChevronRight, faListUl, faThLarge, faShoppingCart, faExpand, faAngleDoubleLeft, 
-  faAngleDoubleRight, faEllipsisH, faReply, faLongArrowRight, faStar } 
-  from '@fortawesome/pro-solid-svg-icons';
-
-  
-import { 
-  faHeart, faBars, faTimes, faWindowClose,  faPhone, faCheck, faMapMarkerAlt, faEnvelopeOpen } 
-from '@fortawesome/pro-regular-svg-icons';
-
-import { faUsers, faTrophyAlt, faAngleDown, faUser, faCalendar, faComments, faLongArrowLeft, faGem, faDatabase , faServer, faLaptopCode, faAnalytics, faFingerprint, faHeadSideBrain, faAtomAlt, faBoxCheck} from '@fortawesome/pro-light-svg-icons';
-
+import {
+  faSort,
+  faEye,
+  faArrowCircleLeft,
+  faArrowCircleRight,
+  faArrowAltCircleRight,
+  faArrowAltCircleLeft,
+  faClock,
+  faSearch,
+  faPlay,
+} from "@fortawesome/free-solid-svg-icons";
 
 import {
+  faChevronLeft,
+  faChevronRight,
+  faListUl,
+  faThLarge,
+  faShoppingCart,
+  faExpand,
+  faAngleDoubleLeft,
+  faAngleDoubleRight,
+  faEllipsisH,
+  faReply,
+  faLongArrowRight,
+  faStar,
+} from "@fortawesome/pro-solid-svg-icons";
+
+import {
+  faHeart,
+  faBars,
+  faTimes,
+  faWindowClose,
+  faPhone,
+  faCheck,
+  faMapMarkerAlt,
+  faEnvelopeOpen,
+} from "@fortawesome/pro-regular-svg-icons";
+
+import {
+  faUsers,
+  faTrophyAlt,
+  faAngleDown,
+  faUser,
+  faCalendar,
+  faComments,
+  faLongArrowLeft,
+  faGem,
+  faDatabase,
+  faServer,
+  faLaptopCode,
+  faAnalytics,
+  faFingerprint,
+  faHeadSideBrain,
+  faAtomAlt,
+  faBoxCheck,
+} from "@fortawesome/pro-light-svg-icons";
+
+import {
+  faWhatsapp,
   faFacebookF,
   faFacebook,
   faGoogle,
@@ -22,17 +65,17 @@ import {
   faLinkedin,
   faPinterest,
   faTwitter,
-  faYoutube
-} from '@fortawesome/free-brands-svg-icons';
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
-import { library } from '@fortawesome/fontawesome-svg-core';
+import { library } from "@fortawesome/fontawesome-svg-core";
 
 export const loadIcons = () => {
   library.add(
     faSort,
     faEye,
     faBars,
-    faTimes, 
+    faTimes,
     faWindowClose,
     faArrowCircleLeft,
     faArrowCircleRight,
@@ -76,5 +119,16 @@ export const loadIcons = () => {
     faDatabase
   );
 
-  library.add(faFacebook, faFacebookF, faGooglePlus, faTwitter, faInstagram, faLinkedin, faGoogle, faPinterest, faYoutube);
+  library.add(
+    faWhatsapp,
+    faFacebook,
+    faFacebookF,
+    faGooglePlus,
+    faTwitter,
+    faInstagram,
+    faLinkedin,
+    faGoogle,
+    faPinterest,
+    faYoutube
+  );
 };
