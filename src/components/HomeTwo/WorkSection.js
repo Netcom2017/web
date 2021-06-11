@@ -22,7 +22,7 @@ const Work = () => {
               <span className="border-left-1"></span>
               <span>working process</span>
               <span className="border-right-1"></span>
-              <h1>How Does We Work</h1>
+              <h1>How Do We Work</h1>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const CounterDefault = () => {
       countIcon: "box-check",
       countIconPrefix: "fal",
       countNum: 569,
-      countTitle: "Projct Complate",
+      countTitle: "Project Completed",
     },
     {
       countIcon: "heart",

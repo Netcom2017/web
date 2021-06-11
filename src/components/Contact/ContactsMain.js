@@ -29,7 +29,7 @@ const ContactMain = () => {
                 <i>
                   <FontAwesomeIcon icon={["far", "envelope-open"]} />
                 </i>
-                <h3>Mail Here</h3>
+                <h3>Mail Us</h3>
                 <a href="mailto:sales@netcom-india.com">
                   sales@netcom-india.com
                 </a>
@@ -45,7 +45,7 @@ const ContactMain = () => {
                 <i>
                   <FontAwesomeIcon icon={["far", "map-marker-alt"]} />
                 </i>
-                <h3>Visit Here</h3>
+                <h3>Visit Us</h3>
                 <p>
                   Office No 201 & 202, Premlok Complex, Near HP Petrol Pump,
                   Above Banana Leaf Restaurant, Visharant Wadi, Pune, 411015.
@@ -62,7 +62,8 @@ const ContactMain = () => {
                 <i>
                   <FontAwesomeIcon icon={["far", "phone"]} />
                 </i>
-                <h3>Call Us Now</h3>
+                <h3>Call Us</h3>
+                <a href="tel:918766550668">+91 8766550668</a> <b>|</b>
                 <a href="tel:917620665635">+91 76206 65635</a>
               </div>
             </div>
@@ -163,6 +164,7 @@ const ContactMain = () => {
                           Copywriting (Blogs, Articles, Products Descriptions,
                           Reviews etc)
                         </option>
+                        <option>Software Solutions</option>
                       </select>
                     </div>
                   </div>

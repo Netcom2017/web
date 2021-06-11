@@ -54,7 +54,7 @@ const Footer = () => {
                 <h4 className="footer-title">Our Services</h4>
                 <ul className="fotter-menu">
                   <li>
-                    <Link href="/coming-soon" as="/coming-soon">
+                    <Link href="/website-development" as="/website-development">
                       Website Development
                     </Link>
                   </li>
@@ -102,17 +102,17 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/coming-soon" as="/coming-soon">
-                      CRM Solution
+                      CRM Solutions
                     </Link>
                   </li>
                   <li>
                     <Link href="/coming-soon" as="/coming-soon">
-                      SaaS Solution
+                      SaaS Solutions
                     </Link>
                   </li>
                   <li>
                     <Link href="/coming-soon" as="/coming-soon">
-                      Software Solution
+                      Software Solutions
                     </Link>
                   </li>
                   <li>
@@ -127,6 +127,14 @@ const Footer = () => {
               <div className="footer-wrapper mb-30">
                 <h4 className="footer-title">Contact Us</h4>
                 <ul className="contact-link">
+                  <li>
+                    <div className="contact-address-icon">
+                      <i className="far fa-phone"></i>
+                    </div>
+                    <div className="contact-address-text">
+                      <a href="tel:918766550668">+91-8766550668</a>
+                    </div>
+                  </li>
                   <li>
                     <div className="contact-address-icon">
                       <i className="far fa-phone"></i>

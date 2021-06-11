@@ -29,11 +29,11 @@ const Cta = () => {
                   </i>
                 </span>{" "}
               </a>
-              <a className="cta-link" href="tel:917620665635">
+              <a className="cta-link" href="tel:918766550668">
                 <i>
                   <FontAwesomeIcon icon={["far", "phone"]} />
                 </i>{" "}
-                <a href="tel:917620665635">+91-7620665635</a>
+                <a href="tel:918766550668">+91-8766550668</a>
               </a>
             </div>
           </div>

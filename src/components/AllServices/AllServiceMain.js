@@ -31,7 +31,10 @@ class AllServiceMain extends Component {
                   <div className="services-text">
                     <h3>Web Development</h3>
                     <div className="services-text-button">
-                      <Link href="/coming-soon" as="/coming-soon">
+                      <Link
+                        href="/website-development"
+                        as="/website-development"
+                      >
                         <span className="services-button">
                           read more
                           <i>

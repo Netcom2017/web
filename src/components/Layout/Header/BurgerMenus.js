@@ -65,7 +65,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
             </a>
             <ul className={service ? "sub-menu active" : "sub-menu"}>
               <li>
-                <Link href="/coming-soon" as="/coming-soon">
+                <Link href="/website-development" as="/website-development">
                   <a>Website Development</a>
                 </Link>
               </li>
@@ -117,17 +117,17 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
               </li>
               <li>
                 <Link href="/coming-soon" as="/coming-soon">
-                  <a>CRM Solution</a>
+                  <a>CRM Solutions</a>
                 </Link>
               </li>
               <li>
                 <Link href="/coming-soon" as="/coming-soon">
-                  <a>SaaS Solution</a>
+                  <a>SaaS Solutions</a>
                 </Link>
               </li>
               <li>
                 <Link href="/coming-soon" as="/coming-soon">
-                  <a>Software Solution</a>
+                  <a>Software Solutions</a>
                 </Link>
               </li>
             </ul>

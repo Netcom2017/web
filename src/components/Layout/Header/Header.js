@@ -116,17 +116,17 @@ const Header = () => {
                           </li>
                           <li>
                             <Link href="/coming-soon" as="/coming-soon">
-                              <a>CRM Solution</a>
+                              <a>CRM Solutions</a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/coming-soon" as="/coming-soon">
-                              <a>SaaS Solution</a>
+                              <a>SaaS Solutions</a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/coming-soon" as="/coming-soon">
-                              <a>Software Solution</a>
+                              <a>Software Solutions</a>
                             </Link>
                           </li>
                         </ul>

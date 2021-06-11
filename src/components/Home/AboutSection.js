@@ -9,10 +9,10 @@ const About = () => {
             <div className="about-text">
               <span>who we are</span>
               <h1>
-                More than 5+ years we providing{" "}
-                <span>IT & Digital Marketing solutions </span>
+                We are providing IT and Digital Marketing Solutions
+                <span> for more than 5 years</span>
               </h1>
-              <h2>Proactive, Effective Marketing Solutions</h2>
+              <h2>Proactive & Effective Marketing Solutions</h2>
               <h3>For Small-To-Medium Sized Businesses</h3>
               <p>
                 NetCom Business Solutions Private Limited is recognised as the

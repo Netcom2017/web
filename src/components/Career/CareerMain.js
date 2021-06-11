@@ -14,7 +14,7 @@ class Career extends Component {
                   <span>Job category</span>
                   <span className="border-right-1"></span>
                   <p>
-                    We have some excellent career for aspiring individuals who
+                    We have some excllent careers for aspiring individuals who
                     think that they have got the potential and skills that can
                     be combined to bombard the ongoing revolution in the IT
                     industry and across the digital marketing sector.

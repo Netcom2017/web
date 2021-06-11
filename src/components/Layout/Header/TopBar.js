@@ -13,7 +13,7 @@ const TopHeader = () => {
                 <i>
                   <FontAwesomeIcon icon={["far", "phone"]} />
                 </i>{" "}
-                <a href="tel:917620665635">+91 76206 65635</a>
+                <a href="tel:918766550668">+91 8766550668</a>
               </span>
               <span className="header-en">
                 <i>

@@ -9,8 +9,8 @@ const FooterBottom = () => {
             <div className="col-xl-8 col-lg-8 col-md-8">
               <div className="copyright">
                 <p>
-                  <i className="far fa-copyright"></i> Copyright 2017-2021
-                  NetCom Business Solutions Pvt. Ltd. All rights reserved.
+                  <i className="far fa-copyright"></i> Copyright 2021 NetCom
+                  Business Solutions Pvt. Ltd. All rights reserved.
                 </p>
               </div>
             </div>

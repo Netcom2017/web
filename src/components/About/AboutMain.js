@@ -16,27 +16,23 @@ class AboutMain extends Component {
                 <div className="about-text">
                   <span>who we are</span>
 
-                  <h2>ABOUT US-BEST DIGITAL MARKETING COMPANY IN PUNE</h2>
+                  <h2>ABOUT US - BEST DIGITAL MARKETING COMPANY IN PUNE</h2>
                   <p>
                     NetCom Business Solutions are full-service web consultants
-                    based in Pune, focusing on areas like web design &
-                    development, SEO, SMM, digital marketing services, web
-                    advertisements in India and also known as Best Digital
-                    Marketing Company in Pune. We aim to provide the best
-                    possible strategic outcome for our valuable clients. We
-                    offer entire web services at affordable rates under one
-                    roof.
+                    based in Pune, focusing on web design & development, SEO,
+                    SMM, digital marketing services, web advertisements in
+                    India, and Best Digital Marketing Company in Pune. We aim to
+                    provide the best possible strategic outcome for our valuable
+                    clients. We offer entire web services at affordable rates
+                    under one roof.
                   </p>
                   <p>
                     NetCom Business Solutions has a team of experts in
                     promotion, provides the best answers for gaining visibility
-                    online to your products. Hence, we provide the
-                    <a href="https://netcom-india.com/web-design-and-development.html">
-                      best website development
-                    </a>
-                    with SEO Results, wherein we will be working on behalf of
-                    your business. High professionalism with preciseness can be
-                    expected with an effectual time plan.
+                    online to your products. Hence, we provide the best website
+                    development with SEO Results, wherein we will be working on
+                    behalf of your business. High professionalism with
+                    preciseness can be expected with an effective time plan.
                   </p>
                   <p>
                     We are more than just a technology firm where the target
@@ -56,28 +52,24 @@ class AboutMain extends Component {
                     services. We have so much feedback and remarks received from
                     our clients. We help you to improve your online presence
                     through our Best Digital Marketing Company in Pune. We offer
-                    customized web design with content management service.
+                    customized web design with a content management service.
                   </p>
                   <p>
-                    We are working with best digital marketing team where we
+                    We are working with the best digital marketing team where we
                     check conversions of our customers and try to improve the
-                    strategy for best possible outcome. Our aim is to bring best
-                    online marketing strategies with proven ways so that our
-                    client can get satisfying results.
+                    strategy for the best possible outcome. We aim to bring the
+                    best online marketing strategies with proven ways to get
+                    satisfying results.
                   </p>
                   <p>
                     If you are going through some challenges in Search Engine
-                    Optimisation or
-                    <a href="https://netcom-india.com/social-media-optimization.html">
-                      Social Media Optimization
-                    </a>
-                    then you are on the right place, all you have to do is hire
-                    us as Website Designing and Digital Marketing Service in
-                    Pune.
+                    Optimisation, and Social Media Optimization then you are in
+                    the right place, all you have to do is hire us as a Website
+                    Designing and Digital Marketing Service in Pune.
                   </p>
 
                   <a class="text-imp" href="contact.html">
-                    To grow your Brand Online feel free to contact us !
+                    To grow your Brand Online feel free to contact us!
                   </a>
                 </div>
               </div>
@@ -100,7 +92,10 @@ class AboutMain extends Component {
                   <div className="section-title  mb-50">
                     <span className="b-sm-left-2"></span>
                     <span className="sub-t-left">our skills</span>
-                    <h1>More Than 5+ Years We Providing Solutions</h1>
+                    <h1>
+                      We are providing IT and Digital Marketing Solutions for
+                      more than 5 years
+                    </h1>
                   </div>
                   <div className="progress-bar-text">
                     <div className="progress-skill">
