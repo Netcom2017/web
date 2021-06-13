@@ -3,7 +3,7 @@ import React from "react";
 const DynamicWebsiteDevelopment = () => {
   return (
     <div>
-      <div className="container website-development">
+      <div className="container website-development mb-5">
         <div className="row dynamic">
           <div className="col-md-6">
             <img
@@ -12,7 +12,7 @@ const DynamicWebsiteDevelopment = () => {
             />
           </div>
           <div className="col-md-6">
-            <h1>Dynamic Website</h1>
+            <h5>Dynamic Website</h5>
             <p>Text will be here</p>
           </div>
         </div>

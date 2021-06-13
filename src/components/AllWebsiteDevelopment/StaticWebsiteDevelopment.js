@@ -3,10 +3,10 @@ import React from "react";
 const StaticWebsiteDevelopment = () => {
   return (
     <div>
-      <div className="container website-development">
+      <div className="container website-development mb-5">
         <div className="row static">
           <div className="col-md-6">
-            <h1>Static Website</h1>
+            <h5>Static Website</h5>
             <p>Text will be here</p>
           </div>
           <div className="col-md-6">

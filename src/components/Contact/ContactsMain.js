@@ -32,6 +32,10 @@ const ContactMain = () => {
                 <h3>Mail Us</h3>
                 <a href="mailto:sales@netcom-india.com">
                   sales@netcom-india.com
+                </a>{" "}
+                <br />
+                <a href="mailto:sarabjit@netcom-india.com">
+                  sarabjit@netcom-india.com
                 </a>
               </div>
             </div>
@@ -63,7 +67,7 @@ const ContactMain = () => {
                   <FontAwesomeIcon icon={["far", "phone"]} />
                 </i>
                 <h3>Call Us</h3>
-                <a href="tel:918766550668">+91 8766550668</a> <b>|</b>
+                <a href="tel:918766550668">+91 8766550668</a> <br />
                 <a href="tel:917620665635">+91 76206 65635</a>
               </div>
             </div>
@@ -94,7 +98,7 @@ const ContactMain = () => {
                       <input
                         type="text"
                         name="name"
-                        placeholder="Full Name Here"
+                        placeholder="Full Name"
                         required
                       />
                     </div>
@@ -104,7 +108,7 @@ const ContactMain = () => {
                       <input
                         type="email"
                         name="email"
-                        placeholder="Email Here"
+                        placeholder="Email"
                         required
                       />
                     </div>
@@ -114,7 +118,7 @@ const ContactMain = () => {
                       <input
                         type="number"
                         name="number"
-                        placeholder="Number Here"
+                        placeholder="Number"
                         required
                       />
                     </div>

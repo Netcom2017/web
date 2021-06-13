@@ -100,39 +100,51 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link href="/coming-soon" as="/coming-soon">
+                        <Link
+                          href="/industry-solutions"
+                          as="/industry-solutions"
+                        >
                           <a>Our Solutions</a>
                         </Link>
                         <ul className="sub-menu text-left">
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/industry-solutions"
+                              as="/industry-solutions"
+                            >
                               <a>Industry Solutions</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/integrated-solutions"
+                              as="/integrated-solutions"
+                            >
                               <a>Integrated Solutions</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link href="/crm-solutions" as="/crm-solutions">
                               <a>CRM Solutions</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link href="/saas-solutions" as="/saas-solutions">
                               <a>SaaS Solutions</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/software-solutions"
+                              as="/software-solutions"
+                            >
                               <a>Software Solutions</a>
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link href="/coming-soon" as="/coming-soon">
+                        <Link href="/case-studies" as="/case-studies">
                           <a>Case Studies</a>
                         </Link>
                       </li>

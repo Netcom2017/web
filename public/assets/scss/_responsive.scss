@@ -1071,6 +1071,9 @@
   .newsletter-form input {
     width: 100%;
   }
+  .social-media-icon img {
+    width: 15% !important;
+  }
 }
 
 /* Large Mobile :480px. */
@@ -1097,5 +1100,8 @@
   .slider-content-4 .border-btn {
     margin-left: 5px;
     margin-top: 0;
+  }
+  .social-media-icon img {
+    width: 30% !important;
   }
 }
