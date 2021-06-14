@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div className="footer-wrapper mb-30">
-                <h4 className="footer-title">Bisiness Partner</h4>
+                <h4 className="footer-title">Business Partner</h4>
                 <div className="partner">
                   <img
                     src="assets/img/logo/google-partner.png"

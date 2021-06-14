@@ -20,8 +20,24 @@ const AllIntegratedSolutions = () => {
         <div className="container">
           <div className="row box payment-integrations mb-4">
             <div className="col-md-6">
-              <h5>Payment Integrations</h5>
-              <p>Description</p>
+              <h5>Payment Gateway Integrations</h5>
+              <p>
+                The process of integrating a payment gateway may seem daunting,
+                but if you want your website to accept online payments it is
+                necessary. Payment gateways connect the merchant’s website and
+                their payment processing bank, allowing for the secure
+                transference of financial details. This is usually done by
+                encrypting the details of credit cards, or other payment
+                methods.
+              </p>
+              <p>There are list of payment gateway which we can integrate:-</p>
+              <ul>
+                <li>1. Razorpay Payment Gateway</li>
+                <li>2. PayPal Payment Gateway</li>
+                <li>3. PayKun Payment Gateway</li>
+                <li>4. InstaMojo Payment Gateway</li>
+                <li>5. Cashfree Payment Gateway</li>
+              </ul>
             </div>
             <div className="col-md-6">
               <img

@@ -91,12 +91,20 @@ const ContactMain = () => {
           </div>
           <div className="col-xl-12">
             <div className="appointment-wrapper contact-form-page">
-              <form className="appointment-form">
+              <form
+                className="appointment-form"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="mb-30">
                       <input
                         type="text"
+                        id="name"
                         name="name"
                         placeholder="Full Name"
                         required
@@ -107,6 +115,7 @@ const ContactMain = () => {
                     <div className="mb-30">
                       <input
                         type="email"
+                        id="email"
                         name="email"
                         placeholder="Email"
                         required
@@ -117,6 +126,7 @@ const ContactMain = () => {
                     <div className="mb-30">
                       <input
                         type="number"
+                        id="number"
                         name="number"
                         placeholder="Number"
                         required
@@ -127,6 +137,7 @@ const ContactMain = () => {
                     <div className="mb-30">
                       <input
                         type="text"
+                        id="business-location"
                         name="business-location"
                         placeholder="Business Location"
                         required
@@ -137,6 +148,7 @@ const ContactMain = () => {
                     <div className="mb-30">
                       <input
                         type="text"
+                        id="website-url"
                         name="website-url"
                         placeholder="Website Url"
                         required
@@ -146,29 +158,48 @@ const ContactMain = () => {
 
                   <div className="col-lg-6">
                     <div className="mb-30">
-                      <select class="form-control" name="service">
-                        <option>Digital Marketing</option>
-                        <option>Content Marketing (Buyers Funnel)</option>
-                        <option>SEO (Search Engine Optimization)</option>
-                        <option>Social Media Marketing (SMM & SMO)</option>
-                        <option>PPC Advertising (Google, Yahoo & Bing)</option>
-                        <option>
+                      <select
+                        class="form-control"
+                        id="service[]"
+                        name="service[]"
+                        multiple
+                      >
+                        <option value="Digital Marketing">
+                          Digital Marketing
+                        </option>
+                        <option value="Content Marketing">
+                          Content Marketing (Buyers Funnel)
+                        </option>
+                        <option value="SEO">
+                          SEO (Search Engine Optimization)
+                        </option>
+                        <option value="Social Media Marketing">
+                          Social Media Marketing (SMM & SMO)
+                        </option>
+                        <option value="PPC Advertising">
+                          PPC Advertising (Google, Yahoo & Bing)
+                        </option>
+                        <option value="Facebook Marketing">
                           Facebook Marketing (Facebook, Insta & WhatsApp)
                         </option>
-                        <option>Email Marketing</option>
-                        <option>Web Development (CMS, Custom & Portal)</option>
-                        <option>
+                        <option value="Email Marketing">Email Marketing</option>
+                        <option value="Web Development">
+                          Web Development (CMS, Custom & Portal)
+                        </option>
+                        <option value="Graphics Designing">
                           Graphics Designing (Social Media, Ads Banners, Logo,
                           Flyers, Brouchers etc)
                         </option>
-                        <option>
+                        <option value="Mobile Application">
                           Mobile Application (For both - Android & iOS)
                         </option>
-                        <option>
+                        <option value="Copywriting">
                           Copywriting (Blogs, Articles, Products Descriptions,
                           Reviews etc)
                         </option>
-                        <option>Software Solutions</option>
+                        <option value="Software Solutions">
+                          Software Solutions
+                        </option>
                       </select>
                     </div>
                   </div>
@@ -176,6 +207,7 @@ const ContactMain = () => {
                     <div className="mb-30">
                       <input
                         type="text"
+                        id="subject"
                         name="subject"
                         placeholder="Subject"
                         required
@@ -186,6 +218,7 @@ const ContactMain = () => {
                   <div className="col-lg-12">
                     <div className="mb-30">
                       <textarea
+                        id="message"
                         name="message"
                         cols="30"
                         rows="10"

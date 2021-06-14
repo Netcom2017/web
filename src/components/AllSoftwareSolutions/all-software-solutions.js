@@ -20,8 +20,23 @@ const AllSoftwareSolutions = () => {
         <div className="container">
           <div className="row box software-solution mb-4">
             <div className="col-md-6">
-              <h5>Software Solutions</h5>
-              <p>Description</p>
+              <h5>Delivering Effective and Efficient Software Solutions</h5>
+              <p>
+                Software Solutions India is focused on creating sustainable
+                value growth through innovative solutions and unique
+                partnerships. Our values are at the heart of our business
+                reputation and are essential to our continued success.
+              </p>
+              <h6>We expertise in:</h6>
+              <ul>
+                <li>1. Application Framework</li>
+                <li>2. Maintenance Management</li>
+                <li>3. Project Management Tools</li>
+                <li>4. Travel</li>
+                <li>5. Manufacturing</li>
+                <li>6. Pharmacy</li>
+                <li>6. Real Estate</li>
+              </ul>
             </div>
             <div className="col-md-6">
               <img

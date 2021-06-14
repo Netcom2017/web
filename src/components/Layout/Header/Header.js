@@ -60,7 +60,7 @@ const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/all-services" as="/all-services">
+                        <Link href="" as="">
                           <a>Our Services</a>
                         </Link>
                         <ul className="sub-menu text-left">
@@ -100,10 +100,7 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link
-                          href="/industry-solutions"
-                          as="/industry-solutions"
-                        >
+                        <Link href="" as="">
                           <a>Our Solutions</a>
                         </Link>
                         <ul className="sub-menu text-left">

@@ -20,8 +20,18 @@ const AllSaasSolutions = () => {
         <div className="container">
           <div className="row box saas-solution mb-4">
             <div className="col-md-6">
-              <h5>Saas Solutions</h5>
-              <p>Description</p>
+              <h5>Software as a service (or SaaS)</h5>
+              <p>
+                Software as a service (or SaaS) is a way of delivering
+                applications over the Internet—as a service. Instead of
+                installing and maintaining software, you simply access it via
+                the Internet, freeing yourself from complex software and
+                hardware management. SaaS applications are sometimes called
+                Web-based software, on-demand software, or hosted software.
+                Whatever the name, SaaS applications run on a SaaS provider’s
+                servers. The provider manages access to the application,
+                including security, availability, and performance.
+              </p>
             </div>
             <div className="col-md-6">
               <img

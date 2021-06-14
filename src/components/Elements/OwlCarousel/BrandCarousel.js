@@ -46,16 +46,44 @@ const BrandCarousel = () => {
     <React.Fragment>
       <OwlCarousel options={options}>
         <div className="col-12">
-          <img src="assets/img/brand/skin-world.png" alt="" />
+          <img src="assets/img/brand/skin-world.png" alt="client" />
         </div>
         <div className="col-12">
-          <img src="assets/img/brand/physiotherapy.png" alt="" />
+          <img src="assets/img/brand/safe-n-secure.png" alt="client" />
+        </div>
+
+        <div className="col-12">
+          <img src="assets/img/brand/salt-cave-asia.png" alt="client" />
         </div>
         <div className="col-12">
-          <img src="assets/img/brand/creative-academy.png" alt="" />
+          <img src="assets/img/brand/surya-safety.png" alt="client" />
         </div>
         <div className="col-12">
-          <img src="assets/img/brand/dr-purva-shah.png" alt="" />
+          <img src="assets/img/brand/tolani-maritime.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/physiotherapy.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/creative-academy.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/dr-purva-shah.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/cake-n-mores.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/datson.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/infinity.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/roadies.png" alt="client" />
+        </div>
+        <div className="col-12">
+          <img src="assets/img/brand/sai-farm.png" alt="client" />
         </div>
       </OwlCarousel>
     </React.Fragment>
