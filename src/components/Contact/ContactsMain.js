@@ -162,7 +162,6 @@ const ContactMain = () => {
                         class="form-control"
                         id="service[]"
                         name="service[]"
-                        multiple
                       >
                         <option value="Digital Marketing">
                           Digital Marketing

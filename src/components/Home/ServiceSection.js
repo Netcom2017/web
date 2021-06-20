@@ -48,7 +48,7 @@ const Service = () => {
               <div className="services-text">
                 <h3>E-Commerce Solutions</h3>
                 <div className="services-text-button">
-                  <Link href="/coming-soon" as="/coming-soon">
+                  <Link href="/ecommerce-solutions" as="/ecommerce-solutions">
                     <span className="services-button">
                       read more
                       <i>
@@ -68,47 +68,10 @@ const Service = () => {
               <div className="services-text">
                 <h3>Mobile App Development</h3>
                 <div className="services-text-button">
-                  <Link href="/coming-soon" as="/coming-soon">
-                    <span className="services-button">
-                      read more
-                      <i>
-                        <FontAwesomeIcon icon={["fas", "long-arrow-right"]} />
-                      </i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-            <div className="services-wrapper text-center">
-              <div className="services-img">
-                <img src="assets/img/icon/icon-4.png" alt="" />
-              </div>
-              <div className="services-text">
-                <h3>Digital Marketing</h3>
-                <div className="services-text-button">
-                  <Link href="/coming-soon" as="/coming-soon">
-                    <span className="services-button">
-                      read more
-                      <i>
-                        <FontAwesomeIcon icon={["fas", "long-arrow-right"]} />
-                      </i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-            <div className="services-wrapper text-center">
-              <div className="services-img">
-                <img src="assets/img/icon/icon-5.png" alt="" />
-              </div>
-              <div className="services-text">
-                <h3>Social Media Advertising</h3>
-                <div className="services-text-button">
-                  <Link href="/coming-soon" as="/coming-soon">
+                  <Link
+                    href="/applications-development"
+                    as="/applications-development"
+                  >
                     <span className="services-button">
                       read more
                       <i>
@@ -126,9 +89,50 @@ const Service = () => {
                 <img src="assets/img/icon/icon-6.png" alt="" />
               </div>
               <div className="services-text">
+                <h3>Digital Marketing</h3>
+                <div className="services-text-button">
+                  <Link href="/digital-marketing" as="/digital-marketing">
+                    <span className="services-button">
+                      read more
+                      <i>
+                        <FontAwesomeIcon icon={["fas", "long-arrow-right"]} />
+                      </i>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div className="services-wrapper text-center">
+              <div className="services-img">
+                <img src="assets/img/icon/icon-4.png" alt="" />
+              </div>
+              <div className="services-text">
                 <h3>UX/UI Strategy</h3>
                 <div className="services-text-button">
-                  <Link href="/coming-soon" as="/coming-soon">
+                  <Link href="/ui-ux-designing" as="/ui-ux-designing">
+                    <span className="services-button">
+                      read more
+                      <i>
+                        <FontAwesomeIcon icon={["fas", "long-arrow-right"]} />
+                      </i>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div className="services-wrapper text-center">
+              <div className="services-img">
+                <img src="assets/img/icon/icon-5.png" alt="" />
+              </div>
+              <div className="services-text">
+                <h3>Other Services</h3>
+                <div className="services-text-button">
+                  <Link href="/other-services" as="/other-services">
                     <span className="services-button">
                       read more
                       <i>

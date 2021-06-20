@@ -2,19 +2,19 @@ import React, { Component } from "react";
 import Header from "../components/Layout/Header/Header";
 import Footer from "../components/Layout/Footer/Footer";
 import SiteBreadcrumb from "../components/Common/Breadcumb";
-import AllApplicationDevelopment from "../components/Application/AllApplicationDevelopment";
+import DigitalMarketingMain from "../components/DigitalMarketing/DigitalMarketingMain";
 
-class Services extends Component {
+class DigitalMarketing extends Component {
   render() {
     return (
       <React.Fragment>
         <Header />
         <main>
           {/* breadcrumb-area-start */}
-          <SiteBreadcrumb pageTitle="Our Service" />
+          <SiteBreadcrumb pageTitle="Website Development" />
           {/* breadcrumb-area-start */}
           {/* About Main */}
-          <AllApplicationDevelopment />
+          <DigitalMarketingMain />
           {/* About Main */}
         </main>
         <Footer />
@@ -23,4 +23,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default DigitalMarketing;

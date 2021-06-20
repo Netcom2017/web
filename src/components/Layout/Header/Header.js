@@ -73,27 +73,36 @@ const Header = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/ecommerce-solutions"
+                              as="/ecommerce-solutions"
+                            >
                               <a>E-Commerce Solutions</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/applications-development"
+                              as="/applications-development"
+                            >
                               <a>Applications Development</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link
+                              href="/digital-marketing"
+                              as="/digital-marketing"
+                            >
                               <a>Digital Marketing</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link href="/ui-ux-designing" as="/ui-ux-designing">
                               <a>UI/UX Designing</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/coming-soon" as="/coming-soon">
+                            <Link href="/other-services" as="/other-services">
                               <a>Other Services</a>
                             </Link>
                           </li>
