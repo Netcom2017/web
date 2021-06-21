@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -28,24 +29,28 @@ const About = () => {
                 Experiences for our Clients. Business Owners belonging to
                 different Industries, in need of Business Growth and Marketing
                 needs, resort to us for the best Business Plans. From{" "}
-                <a href="web-design-and-development.html">
+                <Link href="/website-development" as="/website-development">
                   Web Design and development
-                </a>{" "}
+                </Link>{" "}
                 to{" "}
-                <a href="search-engine-optimization.html">
+                <Link href="/digital-marketing" as="/digital-marketing">
                   Search Engine Optimization
-                </a>
+                </Link>
                 ,{" "}
-                <a href="social-media-optimization.html">
+                <Link href="/digital-marketing" as="/digital-marketing">
                   Social Media Optimization
-                </a>
+                </Link>
                 , and{" "}
-                <a href="social-media-marketing.html">Social Media Marketing</a>
+                <Link href="/digital-marketing" as="/digital-marketing">
+                  Social Media Marketing
+                </Link>
                 , we, as Among the Top digital marketing companies in pune,
                 leave no stone unturned to let your business be armed with a
                 distinctive tag.
               </p>
-              <a href="#">Read More</a>
+              <Link href="/about" as="/about">
+                Read More
+              </Link>
             </div>
           </div>
         </div>

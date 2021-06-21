@@ -3,6 +3,7 @@ import AccordionDefault from "../Elements/Accordion/AccordionDefault";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TestimonialDefault from "../Elements/Testimonials/TestimonialsDefault";
 import Cta from "../Home/CtaSection";
+import Link from "next/link";
 
 class AboutMain extends Component {
   render() {
@@ -68,9 +69,9 @@ class AboutMain extends Component {
                     Designing and Digital Marketing Service in Pune.
                   </p>
 
-                  <a class="text-imp" href="contact.html">
+                  <Link class="text-imp" href="/contact" as="/contact">
                     To grow your Brand Online feel free to contact us!
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
