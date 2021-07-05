@@ -30,7 +30,7 @@ const Header = () => {
                   <Link href="/" as="/">
                     <a>
                       <img
-                        src="assets/img/logo/logo.png"
+                        src="assets/img/logo/logo.jpg"
                         alt="netcom-business-solution-logo"
                       />
                     </a>

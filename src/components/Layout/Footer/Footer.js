@@ -18,7 +18,7 @@ const Footer = () => {
                       alt="facebook-partner-logo"
                     />
                   </a>
-                  <a href="https://www.linkedin.com/company/netcombusinesssolutions">
+                  <a href="">
                     <img
                       src="assets/img/icon/linkedin-logo.png"
                       alt="facebook-partner-logo"
