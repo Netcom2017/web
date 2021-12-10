@@ -32,7 +32,7 @@ const Header = () => {
                       <img
                         src="assets/img/logo/netcom-logo.png"
                         alt="netcom-business-solution-logo"
-                        width="100%"
+                        width={250}
                       />
                     </a>
                   </Link>

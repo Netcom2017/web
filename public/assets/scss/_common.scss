@@ -4,10 +4,6 @@
 
 /* 1. Theme default css */
 
-@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
-* {
-  font-family: "Special Elite", cursive !important;
-}
 body p {
   color: black;
   font-size: 16px;
@@ -104,7 +100,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Special Elite", cursive !important;
+  font-family: $c_bold;
   color: $heading-color;
   margin-top: 0px;
   font-style: normal;
@@ -117,7 +113,6 @@ h4 a,
 h5 a,
 h6 a {
   color: inherit;
-  font-family: "Special Elite", cursive !important;
 }
 h1 {
   font-size: 40px;
