@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-text">
               <span>who we are</span>
               <h1>
-                We are providing IT and Digital Marketing Solutions
+                We are providing IT and Digital Marketing Solutionss
                 <span> for more than 5 years</span>
               </h1>
               <h2>Proactive & Effective Marketing Solutions</h2>
